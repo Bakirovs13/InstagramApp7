@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activities.CameraActivity">
+
+
+    <ImageView
+        android:id="@+id/cameraPhoto_iv"
+        tools:src="@drawable/ic_person_photo"
+        android:layout_width="160dp"
+        android:layout_height="160dp"/>
+
+    <Button
+        android:id="@+id/setPhoto"
+        android:drawableTop="@drawable/ic_baseline_account"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
